@@ -62,7 +62,7 @@ nav{
     font-size: 20px;
 }
 
-header:hover .product_number{
+nav:hover .product_number{
     color: green;
     height: 80px;
     width: 80px;
@@ -75,7 +75,6 @@ header:hover .product_number{
     margin: 2rem 1rem;
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 40px;
-
 }
 
 
@@ -103,5 +102,6 @@ header:hover .product_number{
     font-size: 50px;
     font-family: 'Rubik Mono One', sans-serif;
 }
+
 
 /* /Main CSS */
