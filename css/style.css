@@ -61,9 +61,28 @@ nav{
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 20px;
 }
+
+header:hover .product_number{
+    color: green;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    float: right;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    vertical-align: middle;
+    margin: 2rem 1rem;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 40px;
+
+}
+
+
 /* /Header CSS */
 
 /* Main CSS */
+
 .container{
     height: 100vh;
     width: 100%;
