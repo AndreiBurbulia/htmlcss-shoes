@@ -1,3 +1,5 @@
+/* Regole generali */
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -9,11 +11,10 @@
     content: "";
     clear: both;
 }
-.container{
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
+
+/* /Regole generali */
+
+/* Utility Class */
 
 .red_bg{
     background-color: red;
@@ -24,7 +25,6 @@
 .yellow_bg{
     background-color: yellow;
 }
-
 .red_text{
 color: red;
 }
@@ -35,8 +35,42 @@ color: red;
     color: yellow;
 }
 
+/* /Utility Class */
 
 
+/* Header CSS */
+
+nav{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    position: fixed;
+
+}
+.product_number{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    float: right;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    margin: 2rem 1rem;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 20px;
+}
+/* /Header CSS */
+
+/* Main CSS */
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+}
 
 .position_center{
     position: absolute;
@@ -50,3 +84,5 @@ color: red;
     font-size: 50px;
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+/* /Main CSS */
